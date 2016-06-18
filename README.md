@@ -15,6 +15,7 @@ Currently, I've only modified index.android.js to work like this.  I don't antic
 ## To run:
 
 ~~~~
+  $ git submodule update --init
   $ make
   $ react-native run-android
 ~~~~
