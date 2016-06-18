@@ -1,0 +1,6 @@
+[submodule "elm-native-ui"]
+	path = elm-native-ui
+	url = https://github.com/prozacchiwawa/elm-native-ui
+[submodule "elm-react-native-calc"]
+	path = elm-react-native-calc
+	url = https://github.com/prozacchiwawa/elm-react-native-calc
