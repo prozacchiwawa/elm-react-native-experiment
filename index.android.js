@@ -58,7 +58,7 @@ function propertyToObject(property) {
     case 'EventHandler':
         return {
             key: property._0,
-            value: (a) => runner.ports.event.send([property._0, a])
+            value: (a) => { a.persist(); console.log("Sending event to elm: " + property._0 + " to " + property._1); runner.ports.event.send([property._1, a]); }
         };
     default:
         throw new Error("I don't know how to handle a Property of type '" + property.ctor + "'\n" +
