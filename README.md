@@ -73,3 +73,9 @@ which is mostly stolen from elm-native-ui, but streamlined slightly.  If this is
 this hosting code will have to be written to accept arbitrary elm components, and do some other tasks like
 automatically keeping a list of registered react components for the VTree to reference.  At this point, I mainly
 want to start a discussion.
+
+## Screenshot
+
+The app is nothing to look at, but this is what I came up with with some centering and spacing:
+
+<img src="https://raw.githubusercontent.com/prozacchiwawa/elm-react-native-experiment/master/screen.png" width="360px" height="auto"/>
