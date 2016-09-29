@@ -19,7 +19,7 @@ var ImportedReactElements = { Button: Button, KeyboardSpacer: KeyboardSpacer };
 
 // Kick our elm code in a worker
 var calc = require('./elm-react-native-calc/calc');
-var runner = calc.Calc.worker();
+var runner = calc.Main.worker();
 
 // Code mostly derived from elm-native-ui
 function vtreeToReactElement(vtree) {
